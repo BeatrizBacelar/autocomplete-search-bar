@@ -20,12 +20,6 @@ function App() {
     }
 
   }, [term]);
-
-  useEffect(() => {
-  if (data) {
-    console.log('Resultado da busca:', data);
-  }
-}, [data]);
     
   return (
     <div className="App">

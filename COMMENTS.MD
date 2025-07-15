@@ -2,6 +2,7 @@
 
 - A arquitetura utilizada para organização das pastas/arquivos foi escolhida com base em experiências passadas, considerando, principalmente, a facilidade de visualização da função de cada arquivo para o projeto, manutenção e escalabilidade. 
 Para editar estilização, os componentes das páginas principais possuem seus arquivos próprios e componentes também reutilizáveis (elementos de formulário, button) encontram-se em components. Pensando no futuro, pode ser mais interessante que cada componente possua seu próprio arquivo de estilização, não concentrando tudo no estilo da página. 
+- O NodeJs foi escolhido para o backend por ter boa integração com o GraphQL e seguir com o uso do javascript / typescript também realizado no frontend.
 - O uso do TypeScript foi importante para garantir um melhor processo de desenvolvimento, evitando dor de cabeça com passagem de parâmetro incorreto ou fora do tipo e entender bem o retorno dos dados pelo GraphQL, garantindo que estou utilizando-os da forma correta.
 - Apesar de obrigatório, a experiência com o GraphQL nessa busca simultânea dos dados conforme a digitação do usuário foi muito importante para dinamicidade e velocidade de resposta do backend. Além disso, o uso do Docker para executar o backend e frontend com apenas um comando simplificou a forma de executar o projeto, sendo um aprendizado importante para projetos futuros. 
 

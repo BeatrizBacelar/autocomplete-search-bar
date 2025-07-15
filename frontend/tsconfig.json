@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          
+    "module": "ESNext",                       
+    "lib": ["DOM", "DOM.Iterable", "ESNext"], 
+    "allowJs": true,                         
+    "skipLibCheck": true,                     
+    "esModuleInterop": true,                 
+    "allowSyntheticDefaultImports": true,   
+    "strict": true,                          
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",              
+    "resolveJsonModule": true,                
+    "isolatedModules": true,
+    "noEmit": true,                           // Não gera JS (use se for só pra checar)
+    "jsx": "react-jsx"                        // JSX automático (React 17+)
+  },
+  "include": ["src"]
+}

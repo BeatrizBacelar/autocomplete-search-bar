@@ -1,0 +1,146 @@
+.fullTopBar {
+  background-color: #398ac8;
+}
+
+.suggestionItem {
+   display: 'flex';
+   align-items: 'center';
+   gap: '8px';
+   padding: 16px;
+}
+
+.suggestionItem:hover {
+  background-color: #E6E6E6;
+  border-left: 3px solid rgb(56, 56, 226);
+}
+
+/* .suggestionItem:active {
+  background-color: pink;
+} */
+
+/* .suggestionItem:focus {
+  outline: none;
+  background-color: blue;
+  width: 100%;
+} */
+
+.suggestionsList {
+  width: 100%;
+}
+
+.suggestionsWrapper {
+  background-color: #FFFFFF;
+  font-size: 1.5rem;
+  color: #333333;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  gap: 16px;
+  width: 70%;
+  max-height: 350px; 
+  overflow-y: auto;
+}
+
+.suggestionsWrapper ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topBar {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #FFFFFF;
+  padding: 24px 16px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.textTopBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0;
+  gap: 8px;
+}
+
+.searchContainer input {
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #E6E6E6;
+  border: none;
+  width: 50%;
+  padding: 16px;
+  font-size: 1.2rem;
+}
+
+.searchContainer button {
+  flex-grow: 1;
+  /* width: 20%; */
+  border-radius: 5px;
+  border: none;
+  color: #37374F;
+  background-color: #ffca02;
+  font-weight: 700;
+  padding: 18px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.searchContainer button:hover{
+  filter: brightness(0.9);
+}
+
+.searchContainer select {
+  flex-grow: 1;
+  padding: 14px 32px;
+  font-size: 1.2rem;
+  color: #333333;
+  background-color: #EEEEEE;
+  border: 1px solid #DDDDDD;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.searchContainer select::focus, select::hover{
+  outline: none;
+  border: 1px solid #BBBBBB;
+}
+
+.searchContainer select option {
+  background-color: #FFFFFF;
+}
+
+.titleSearch {
+  text-align: left;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .searchContainer button {
+    width: auto;
+  }
+  .searchContainer input {
+    width: auto;
+  }
+  .textTopBar {
+    text-align: left;
+  }
+}
+
+

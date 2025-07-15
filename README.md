@@ -9,7 +9,9 @@ Esse projeto é de uma barra de pesquisa com autocomplete. Utiliza React + Graph
 - ReactJs
 - NodeJs
 
-Essa aplicação consiste em uma busca com barra de busca que possui sugestões autocomplete de acordo com a digitação do termo de busca do usuário. Essas sugestões exibem no máximo 10 inicialmente e, a partir da barra de rolagem, exibe até 20 sugestões. 
+Essa aplicação consiste em uma busca com barra de busca que possui sugestões autocomplete de acordo com a digitação do termo de busca do usuário. Essas sugestões exibem no máximo 10 inicialmente e, a partir da barra de rolagem, exibe até 20 sugestões. Na imagem abaixo está um exemplo de consulta.
+
+![alt text](image.png)
 
 ## API 
 ## Tecnologias e arquitetura utilizadas

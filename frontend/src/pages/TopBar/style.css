@@ -14,15 +14,7 @@
   border-left: 3px solid rgb(56, 56, 226);
 }
 
-/* .suggestionItem:active {
-  background-color: pink;
-} */
 
-/* .suggestionItem:focus {
-  outline: none;
-  background-color: blue;
-  width: 100%;
-} */
 
 .suggestionsList {
   width: 100%;
@@ -37,7 +29,7 @@
   text-align: left;
   gap: 16px;
   width: 70%;
-  max-height: 350px; 
+  max-height: 330px; 
   overflow-y: auto;
 }
 
@@ -49,7 +41,6 @@
 
 .topBar {
   display: flex;
-  /* align-items: center; */
   flex-wrap: wrap;
   flex-direction: column;
   color: #FFFFFF;
@@ -86,7 +77,6 @@
 
 .searchContainer button {
   flex-grow: 1;
-  /* width: 20%; */
   border-radius: 5px;
   border: none;
   color: #37374F;
@@ -136,6 +126,9 @@
     width: auto;
   }
   .searchContainer input {
+    width: auto;
+  }
+  .suggestionsWrapper {
     width: auto;
   }
   .textTopBar {
